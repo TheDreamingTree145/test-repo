@@ -42,4 +42,5 @@ const clearPairs = () => {
 
 const newFunction = () => {
   doThis();
+  notThat();
 }
