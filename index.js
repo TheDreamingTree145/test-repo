@@ -39,3 +39,7 @@ const startTest = () => {
 const clearPairs = () => {
   localStorage
 }
+
+const newFunction = () => {
+  
+}
