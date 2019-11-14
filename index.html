@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS Issue Tracker</title>
+  </head>
+  <body>
+    <h1>Language Generator</h1>
+      <button id="test_button">Begin Test Mode</button>
+      <button id="clear_pairs"
+      <div id="list_input_form">
+        <form onsubmit="savePair()">
+          <label for="english_input">English</label>
+          <input type="text" name="english_input" id="english_input" />
+          <label for="foreign_input">Foreign</label>
+          <input type="text" name="foreign_input" id="foreign_input" />
+          <input type="submit" value="Submit" name="list_pair_submit" id="list_pair_submit"></input>
+        </form>
+
+        <div id="list_pairs">
+          <ul id="ul_list_pairs">
+          </ul>
+        </div>
+        <script src="index.js"></script>
+  </body>
+</html>
